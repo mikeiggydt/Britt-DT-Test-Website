@@ -1,0 +1,27 @@
+{
+  "name": "dt_testing",
+  "version": "1.0.0",
+  "description": "Website for Testing DialogTech Code",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iggy788/DT_Testing.git"
+  },
+  "author": "Mike Ignaczak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iggy788/DT_Testing/issues"
+  },
+  "homepage": "https://github.com/iggy788/DT_Testing#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "mysql": "^2.15.0",
+    "nodemon": "^2.0.4"
+  }
+}
