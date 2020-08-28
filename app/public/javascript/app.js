@@ -6,10 +6,7 @@ $(document).ready(function () {
 
 
     // What to Do When Submit is Clicked
-    $('#submit').on('click', function (event) {
-        event.preventDefault();
-        console.log('var clicked: ' + clicked);
-
+    $('#submit').one('click', function (event) {
         // Looping through the array of more numbers
         for (var i = 0; i < moreNumbers.length; i++) {
 
@@ -23,5 +20,7 @@ $(document).ready(function () {
         }
         _st.render();
         var clicked = true;
+        console.log('var clicked: ' + clicked);
+        event.preventDefault();
     });
 });
